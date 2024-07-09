@@ -1,0 +1,36 @@
+
+.footer {
+    background-color: black;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer.container {
+    max-width: 1200px;
+    margin-top:  20px;
+    padding: 0 20px;
+  }
+  
+  .footer h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0;
+    color: white;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer li {
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+  
+
+ 
+ 
