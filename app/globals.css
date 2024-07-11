@@ -465,3 +465,10 @@
   transition: 0.4s;
   transform: translateX(-56px);
 }
+
+.tableRow {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+}
+ 

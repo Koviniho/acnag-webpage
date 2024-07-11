@@ -8,7 +8,7 @@ function SalaryDiscription() {
   return (
     <div className='flex flex-col w-[95%] pl-5 flex-wrap gap-7 my-16 '>
       <div>
-        <p className='flex flex-wrap font-bold text-lg'>Lohn</p>
+        <p className='flex flex-wrap font-bold text-lg'>Schadensart</p>
         <p className='font-light flex flex-wrap  text-sm'>Geben Sie hier den finanziellen Ausgleich an, den die Bewerber erwarten können. Die Angabe dieser Informationen und ihre Sichtbarkeit in der Stellenanzeige sind obligatorisch, wenn Sie die Stelle kostenlos ausschreiben.</p>
       </div>
       <div className='gap-3 flex flex-col'>

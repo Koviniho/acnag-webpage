@@ -48,10 +48,10 @@ const Footer = () => {
                     icon={faLocationDot}
                     className="text-[green]"
                   />
-                  <p className="font-light text-[16px] md:w-28">
+                  <p className="font-light text-[16px] md:w-280">
                     Leenrütimattweg 3,{" "}
                   </p>
-                  <p className="font-light text-[16px] md:w-28">
+                  <p className="font-light text-[16px] md:w-280">
                     4804 Niederbipp{" "}
                   </p>
                 </div>
@@ -202,7 +202,7 @@ const SocialMedias = () => {
           style={{ width: "24px", height: "24px" }}
         />
       ),
-      href: "https://www.tiktok.com/"
+      href: "https://www.tiktok.com/",
     },
     {
       name: "AUTOSCOUT24",
@@ -233,19 +233,20 @@ const SocialMedias = () => {
             className="flex flex-col items-start md:gap-4 md:mb-4 px-4 md:w-full w-screen"
           >
             <div className="flex items-center md:gap-16 justify-between w-full ">
-              <div className="flex gap-2 md:text-xl text-sm">
-                <a href={value.href}>
-                {value.src}
-                <p>{value.name}</p>
-                </a>
-              </div>
+              <a href={value.href}>
+                <div className="flex gap-2 md:text-xl text-sm tableRow">
+                  <div>{value.src}</div>
+                  <div className="flex gap-2 md:text-xl text-sm">
+                    <p>{value.name}</p>
+                  </div>
+                </div>
+              </a>
               <div
                 onClick={() => handleIconClick(index)}
                 className={`flex justify-end w-[32px] h-[32px] items-center transition-transform transform ${
                   rotations[index] ? "-rotate-45" : ""
                 }`}
-              >
-              </div>
+              ></div>
             </div>
           </div>
         ))}
